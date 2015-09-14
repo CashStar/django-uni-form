@@ -8,7 +8,7 @@ from uni_form.helper import FormHelper
 
 register = template.Library()
 # We import the filters, so they are available when doing load uni_form_tags
-from uni_form_filters import *
+from . uni_form_filters import *
 
 
 class ForLoopSimulator(object):
